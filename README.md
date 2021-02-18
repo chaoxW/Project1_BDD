@@ -7,7 +7,7 @@
 
 # Project1 BDD for GUI automation test
 
-Use Selenium and BDD to make the automation test
+Use Selenium and BDD to make the automation test, use POM to build the test framework.
 
 Contents:
 
