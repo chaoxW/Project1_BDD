@@ -7,7 +7,7 @@
 
 # Project1 BDD for GUI automation test
 
-Use Selenium and BDD to make the automation test, use POM to build the test framework.
+Use Selenium and BDD to make the automation test, use POM(page object module) to build the test framework.
 
 Contents:
 
@@ -37,8 +37,8 @@ The project has four folders to manage the project:
     *  run `behave -f allure_behave.formatter:AllureFormatter -o reports/ features` from command line to launch all the tests
 
   * **..\features\steps\config**
-    * **..\features\steps\Config\config.ini** this file manage all the data for the tests for example users,url and athletes for the query test, it is easy for the maintanence afterwards
-    * **..\features\steps\Config\config_file.py** this file is used for parsing the data from ..\Config\config.ini which can import for step definitions
+    * **..\features\steps\Config\config.ini** this file manages all the data for the tests for example users,url and athletes for the query test, it is easy for the maintanence afterwards
+    * **..\features\steps\Config\config_file.py** this file is used for parsing the data from ..\Config\config.ini which can be used for step definitions
 
   * **..\Report**
     * This folder receives the reports when tests complete  
